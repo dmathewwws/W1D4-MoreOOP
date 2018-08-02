@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		123198FF2113624700A058C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 123198FE2113624700A058C4 /* main.m */; };
+		123199072113642400A058C4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 123199062113642400A058C4 /* Person.m */; };
+		1231990B21136B4F00A058C4 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1231990A21136B4F00A058C4 /* Teacher.m */; };
+		1231990E21136B5C00A058C4 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 1231990D21136B5C00A058C4 /* Student.m */; };
+		1231991121136B7300A058C4 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 1231991021136B7300A058C4 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,15 @@
 /* Begin PBXFileReference section */
 		123198FB2113624600A058C4 /* W1D4-More-OOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "W1D4-More-OOP"; sourceTree = BUILT_PRODUCTS_DIR; };
 		123198FE2113624700A058C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		123199052113642400A058C4 /* Person.h */ = {isa = PBXFileReference; indentWidth = 0; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		123199062113642400A058C4 /* Person.m */ = {isa = PBXFileReference; indentWidth = 0; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1231990821136AAB00A058C4 /* CarDriver.h */ = {isa = PBXFileReference; indentWidth = 0; lastKnownFileType = sourcecode.c.h; path = CarDriver.h; sourceTree = "<group>"; };
+		1231990921136B4F00A058C4 /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		1231990A21136B4F00A058C4 /* Teacher.m */ = {isa = PBXFileReference; indentWidth = 0; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		1231990C21136B5C00A058C4 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		1231990D21136B5C00A058C4 /* Student.m */ = {isa = PBXFileReference; indentWidth = 0; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		1231990F21136B7300A058C4 /* Car.h */ = {isa = PBXFileReference; indentWidth = 0; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		1231991021136B7300A058C4 /* Car.m */ = {isa = PBXFileReference; indentWidth = 0; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,15 @@
 			isa = PBXGroup;
 			children = (
 				123198FE2113624700A058C4 /* main.m */,
+				123199052113642400A058C4 /* Person.h */,
+				123199062113642400A058C4 /* Person.m */,
+				1231990921136B4F00A058C4 /* Teacher.h */,
+				1231990A21136B4F00A058C4 /* Teacher.m */,
+				1231990C21136B5C00A058C4 /* Student.h */,
+				1231990D21136B5C00A058C4 /* Student.m */,
+				1231990821136AAB00A058C4 /* CarDriver.h */,
+				1231990F21136B7300A058C4 /* Car.h */,
+				1231991021136B7300A058C4 /* Car.m */,
 			);
 			path = "W1D4-More-OOP";
 			sourceTree = "<group>";
@@ -118,7 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1231991121136B7300A058C4 /* Car.m in Sources */,
+				1231990B21136B4F00A058C4 /* Teacher.m in Sources */,
+				123199072113642400A058C4 /* Person.m in Sources */,
 				123198FF2113624700A058C4 /* main.m in Sources */,
+				1231990E21136B5C00A058C4 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
